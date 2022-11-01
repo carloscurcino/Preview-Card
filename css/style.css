@@ -68,9 +68,21 @@
     border-top-right-radius: 11px;
     border-bottom-right-radius: 11px;
 }
+.prod h1{
+    font-family: 'Fraunces', serif;
+    font-weight: bold;
+}
 .prod span{
-    
     font-family: 'Montserrat', sans-serif;
+}
+.prod p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+.price #promotion{
+    font-family: 'Fraunces', serif;
+    font-size: 29px;
+    color: var(--primairy-dark-cyan);
 }
 .addcart-button button{
     width: 100%;
