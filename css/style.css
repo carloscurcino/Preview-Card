@@ -67,22 +67,35 @@
     padding: 3rem;
     border-top-right-radius: 11px;
     border-bottom-right-radius: 11px;
+    justify-content: space-between;
 }
 .prod h1{
     font-family: 'Fraunces', serif;
     font-weight: bold;
+    font-size: 25px;
+    margin-top: 27px;
+    margin-bottom: 10px;
 }
 .prod span{
+    padding-top: 27px;
+    margin-bottom: 27px;
     font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
 }
 .prod p{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
+    font-size: 11px;
+    margin-bottom: 32px;
 }
 .price #promotion{
     font-family: 'Fraunces', serif;
     font-size: 29px;
     color: var(--primairy-dark-cyan);
+}
+.price #older{
+    font-size: 12px;
+    text-decoration: line-through;
 }
 .addcart-button button{
     width: 100%;
